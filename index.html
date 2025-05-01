@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat entre deux personnes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Chat Simple</h1>
+            <div class="user-selection">
+                <button id="user1" class="user-btn active">Utilisateur 1</button>
+                <button id="user2" class="user-btn">Utilisateur 2</button>
+            </div>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Les messages apparaîtront ici -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="Tapez votre message...">
+            <button id="send-btn">Envoyer</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
